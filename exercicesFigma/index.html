@@ -1,0 +1,428 @@
+<!--
+
+------------------------------------------------------------ 
+ Exercice 1 :     Création de formes de base
+Objectif : Utiliser les outils de formes pour créer des éléments.
+Tâche : Créez un rectangle, un cercle et une ligne. Modifiez leurs dimensions dans le panneau des propriétés.
+
+------------------------------------------------
+Exercice 2 : Organisation des calques
+Objectif : Apprendre à organiser les éléments sur le canevas.
+Tâche : Placez plusieurs formes sur le canevas. Dans le panneau des calques, renommez-les, regroupez-les, et ajustez leur ordre en les déplaçant.
+
+------------------------------------------------
+Exercice 3 : Application de couleurs
+Objectif : Appliquer et modifier les couleurs des éléments.
+Tâche : Sélectionnez une forme et changez sa couleur de remplissage en utilisant le panneau des propriétés. Essayez différentes couleurs et dégradés. 
+
+------------------------------------------------
+Exercice 4 : Ajout de texte
+Objectif : Créer et modifier des zones de texte.
+Tâche : Utilisez l’outil Texte pour écrire un titre et un paragraphe. Changez la police, la taille, l’interlignage et la couleur.
+------------------------------------------------
+
+Exercice 5 : Alignement et distribution
+Objectif : Utiliser les outils d’alignement et de distribution.
+Tâche : Créez trois cercles sur le canevas. Utilisez les options d'alignement pour les centrer et les distribuer de manière égale horizontalement.
+
+------------------------------------------------
+Exercice 6 : Création d'un bouton
+Objectif : Combiner plusieurs éléments pour créer un bouton.
+Tâche : Créez un rectangle avec du texte à l’intérieur. Ajoutez une ombre en modifiant les propriétés du rectangle pour donner un effet de bouton.
+
+------------------------------------------------
+Exercice 7 : Utilisation des guides
+Objectif : Utiliser les grilles et les repères pour organiser les éléments.
+Tâche : Activez les guides et grilles depuis le menu des options. Positionnez des formes en utilisant ces repères pour assurer un alignement parfait.
+
+------------------------------------------------
+Exercice 8 : Modifier l'opacité d'un élément
+Objectif : Apprendre à jouer avec la transparence.
+Tâche : Sélectionnez un rectangle et modifiez son opacité dans le panneau des propriétés pour lui donner un effet transparent.
+
+------------------------------------------------
+Exercice 9 : Création d'une carte simple
+Objectif : Créer une "carte" comme on pourrait en voir dans un site web.
+Tâche : Créez un rectangle, ajoutez une image à l'intérieur (via glisser-déposer), et placez un titre et une description en dessous.
+
+------------------------------------------------------------
+Exercice 10 : Création d'une icône personnalisée
+Objectif : Utiliser l’outil plume (Pen Tool) pour créer une forme vectorielle.
+Tâche : Utilisez l’outil plume pour dessiner une icône simple, comme une étoile ou une flèche. Ajustez les points d’ancrage pour créer une forme lisse.
+
+Exercice 10: Utilisation des masques dans Figma
+Objectif : Apprendre à masquer une partie d’un élément (image, forme) dans Figma.
+Créer une forme (rectangle, cercle) sur le canevas.
+Ajouter une image et la positionner à côté de la forme.
+Sélectionner l'image et la forme en maintenant Shift.
+Appliquer un masque avec le raccourci Ctrl + Alt + M (ou Cmd + Option + M sur Mac).
+Ajuster le masque en déplaçant ou redimensionnant la forme masquante pour montrer la zone désirée.
+
+------------------------------------------------------------
+Exercice 11 : Union
+Objectif : Apprendre à utiliser l'opération Union pour combiner des formes.
+Instructions :
+Créez deux cercles qui se chevauchent.
+Sélectionnez les deux cercles, puis appliquez l’opération Union pour les combiner en une seule forme continue.
+Pour ce faire, allez dans le menu Boolean groups (Opérations booléennes) et sélectionnez Union (Unionner).
+Modifiez la couleur et observez que les deux formes sont désormais fusionnées.
+
+------------------------------------------------------------
+Exercice 12 : Subtract 
+Objectif : Utiliser l'opération Subtract pour soustraire une forme d'une autre.
+Instructions :
+Créez un rectangle et placez un cercle par-dessus pour qu’ils se chevauchent.
+Sélectionnez les deux formes et appliquez l’opération Subtract .
+Pour ce faire, dans le menu Boolean groups (Opérations booléennes), choisissez Subtract (Soustraction).
+Le cercle "découpe" le rectangle, créant une ouverture là où il se superpose.
+
+------------------------------------------------------------
+Exercice 13 : Intersection 
+Objectif : Utiliser l'opération Intersection pour ne conserver que la zone commune entre deux formes.
+Instructions :
+Créez un carré et un cercle qui se chevauchent partiellement.
+Sélectionnez les deux formes et appliquez l'opération Intersection .
+Dans le menu Boolean groups (Opérations booléennes), sélectionnez Intersection (Intersection).
+Seule la partie où les deux formes se chevauchent est conservée.
+
+------------------------------------------------------------
+Exercice 14 : Exclusion 
+Objectif : Utiliser l'opération Exclusion pour retirer la partie commune des formes.
+Instructions :
+Dessinez un triangle et un rectangle qui se chevauchent.
+Sélectionnez les deux formes et appliquez l’opération Exclusion.
+Dans le menu Boolean groups (Opérations booléennes), choisissez Exclusion .
+Observez que seule la partie extérieure des deux formes est conservée, la zone commune est supprimée.
+
+------------------------------------------------------------
+Exercice 15 : Flatten 
+Objectif : 
+    Utiliser l'opération Flatten pour fusionner 
+    plusieurs éléments en un seul calque vectoriel.
+Instructions :
+    Créez plusieurs formes vectorielles 
+    (par exemple, des lignes ou des formes dessinées avec l’outil plume).
+    Sélectionnez toutes les formes et appliquez l’opération Flatten .
+    Pour ce faire, utilisez le raccourci Ctrl + E (ou Cmd + E sur Mac).
+    Observez que toutes les formes sont désormais fusionnées 
+    en une seule forme vectorielle que vous pouvez modifier plus facilement.
+
+    ------------------------------------------------------------
+Exercice 16: Créer un bouton "Valider" avec Auto Layout
+Objectif : Apprendre à créer un bouton fonctionnel et réactif en utilisant Auto Layout dans Figma, avec une couleur choisie à partir de la palette Flat UI Colors.
+Étapes :
+1. Création du texte du bouton
+    Utilisez l'outil Texte pour écrire "Valider" au centre de votre canevas.
+    Sélectionnez une police lisible avec une taille entre 14 px et 18 px pour qu'il soit clair et visible.
+2. Application de l'Auto Layout
+    Sélectionnez le texte "Valider", puis faites un clic droit et choisissez Add Auto Layout (Ajouter Auto Layout).
+    Auto Layout ajoutera automatiquement un cadre autour de votre texte, qui s’ajustera lorsque vous modifierez la longueur ou la taille du texte.
+3. Ajuster les espacements
+    Dans le panneau de propriétés à droite, ajustez les marges internes (Padding) à 10 px de haut et 20 px de large pour donner un aspect agréable au bouton.
+    Veillez à ce que le bouton soit suffisamment spacieux pour que le texte "Valider" reste lisible.
+4. Choisir une couleur 
+    Allez sur Flat UI Colors 
+    Choisissez une couleur pour le bouton, par exemple.
+    et appliquez la couleur choisie comme couleur de fond (section Fill).
+5. Ajouter des bordures et des coins arrondis
+    Ajoutez une bordure (Stroke) si nécessaire et réglez sa taille à 2px 
+    réglez les coins arrondis (Corner Radius) à 6 px ou plus pour un look moderne.
+6. Finalisation
+Ajoutez une ombre discrète (Drop Shadow) pour donner de la profondeur
+Votre bouton est maintenant prêt, et il s'ajuste automatiquement si vous modifiez la taille du texte grâce à l'Auto Layout.
+
+
+------------------------------------------------------------
+Exercice 17 : Créer un composant de bouton "Valider" dans Figma
+Objectif : Transformer le bouton "Valider" créé précédemment en un composant réutilisable dans Figma.
+Étapes :
+1. Sélectionner le bouton
+Sélectionnez le bouton "Valider" que vous avez créé précédemment avec Auto Layout.
+2. Créer un composant
+Faites un clic droit sur le bouton sélectionné.
+Choisissez l'option Create Component (Créer un composant) dans le menu contextuel ou utilisez le raccourci clavier Ctrl + Alt + K (ou Cmd + Option + K sur Mac).
+Vous verrez un contour violet autour du bouton, ce qui indique que le bouton est maintenant un composant.
+3. Nommer le composant
+Dans le panneau des calques à gauche, renommez le composant en "Bouton Valider" pour faciliter son identification.
+4. Utilisation du composant
+Pour utiliser ce bouton dans d'autres parties de votre projet, faites simplement un glisser-déposer du composant à partir de la section Assets (Ressources) située dans le panneau gauche. Vous pouvez également copier/coller le bouton.
+5. Créer des variantes 
+Pour ajouter des variantes du bouton (comme un état "hover" ou "cliqué"), vous pouvez dupliquer le composant et modifier la couleur, puis les regrouper en un seul composant à variantes.
+Sélectionnez votre composant, faites un clic droit et choisissez Add Variant (Ajouter une variante).
+Créez une variante pour chaque état (normal, survolé, cliqué) et modifiez leur apparence (couleurs ou effets).
+Résultat attendu :
+Un bouton "Valider" transformé en composant réutilisable que vous pouvez intégrer facilement dans d'autres designs et modifier à volonté avec différentes variantes pour des interactions.
+
+------------------------------------------------------------
+Exercice 18: Créer des animations de transition entre les variantes d’un bouton
+Objectif : Apprendre à ajouter des animations de transition dans Figma pour rendre les changements entre les états (normal, survolé, cliqué) plus dynamiques.
+Étapes :
+1. Configurer les variantes
+Créez votre bouton avec trois variantes : Normal, Hover (Survolé), et Clicked (Cliqué) comme dans l’exercice précédent.
+2. Passer en mode Prototype
+Sélectionnez l’ensemble des variantes et passez en mode Prototype (disponible dans le panneau de droite).
+3. Ajouter une interaction avec une animation
+Normal → Hover : Cliquez sur la variante Normal et faites glisser un lien vers la variante Hover.
+Dans la section Interaction details (Détails de l’interaction), sélectionnez :
+On Hover (Au survol) comme déclencheur.
+Change to → Hover (Changer vers Survolé).
+Pour l'animation, choisissez Smart Animate (Animation intelligente) et définissez une durée (par exemple, 200ms).
+Hover → Clicked : Sélectionnez la variante Hover et créez une interaction avec Clicked.
+
+Utilisez On Click (Au clic) comme déclencheur et sélectionnez Smart Animate avec une durée de 200ms.
+Clicked → Normal : Ajoutez une dernière interaction pour revenir à l'état Normal après avoir cliqué :
+
+Sélectionnez After Delay (Après un délai), réglez-le à 300ms et choisissez Change to → Normal avec Smart Animate.
+4. Ajuster les transitions
+Pour rendre l’animation plus fluide, vous pouvez ajuster la durée et le type d’animation :
+Easing options : Sélectionnez Ease In ou Ease Out selon l'effet souhaité pour lisser l'entrée ou la sortie de l'animation.
+Résultat attendu :
+Un bouton interactif avec des transitions animées et fluides entre les états Normal, Survolé et Cliqué, utilisant des Smart Animates pour donner une impression de mouvement dynamique et réaliste à chaque interaction.
+
+Astuces :
+Utilisez des animations douces et un temps de transition court (200-300ms) pour éviter des changements trop abrupts.
+Testez l'animation en mode Prototype pour voir comment les transitions réagissent en temps réel.
+-------------------------------------------
+
+Créez une page dans Figma avec un contenu long et un footer fixe qui reste visible en bas de l’écran, quelle que soit la position du défilement.
+
+Étapes :
+Créer une frame principale :
+
+Créez une frame de taille standard pour l’écran (par exemple, 1200px de large et 800px de haut).
+Ajouter une zone de contenu défilable :
+
+À l’intérieur de la frame principale, créez une zone de contenu plus longue que la frame (ex : 2000px de haut) et remplissez-la avec du texte ou des images.
+Sélectionnez cette zone et activez le défilement vertical (Vertical Scrolling) dans le panneau de droite, sous Overflow Behavior.
+Ajouter le footer :
+
+Créez un footer (par exemple, 1200px de large et 100px de haut) et placez-le en bas de la frame principale.
+Sélectionnez le footer et, dans le panneau de droite, sous Constraints, définissez-le pour qu’il soit attaché à la base (Bottom).
+Prévisualisation :
+
+Passez en mode Prototype et prévisualisez le projet pour vous assurer que le footer reste fixe pendant que vous défilez le contenu.
+
+-------------------------------------------
+
+Exercice 19 : Créer et intégrer la typographie dans un Design System
+Objectif : Définir et intégrer des styles de typographie dans un Design System en utilisant Figma.
+
+Étapes :
+1. Choisir la typographie
+Sélectionnez une ou plusieurs polices cohérentes avec le style de votre produit (par exemple, une pour les titres et une pour les paragraphes).
+Exemple : Utilisez Roboto pour les titres et Open Sans pour les paragraphes.
+2. Définir les tailles et les styles
+Créez plusieurs styles de texte dans Figma pour différentes utilisations :
+Titre principal (H1) : 32 px, gras.
+Sous-titre (H2) : 24 px, semi-gras.
+Texte de paragraphe : 16 px, régulier.
+Texte de légende : 12 px, italique.
+3. Créer des styles de texte dans Figma
+Sélectionnez un bloc de texte, allez dans le panneau Styles (à droite), et cliquez sur le bouton + pour créer un nouveau style de texte.
+Nommez chaque style selon son usage, par exemple, "Heading 1" pour le titre principal.
+4. Documenter les styles typographiques
+Créez une page dédiée à la typographie dans votre Design System.
+Documentez chaque style en spécifiant l’usage de chaque niveau de texte (par exemple, "Utilisez H1 pour les titres de page").
+5. Testez l'application des styles
+Appliquez vos styles de texte sur différents composants (comme des boutons, des cartes) pour vérifier la cohérence visuelle.
+Résultat attendu :
+Un ensemble de styles typographiques définis dans Figma, réutilisables dans l'ensemble de vos projets, et documenté dans votre Design System pour assurer la cohérence de l'utilisation des polices et des tailles de texte.
+
+-------------------------------------------
+
+Exercice 20: Créer une palette de couleurs ( Adobe Color Wheelb) pour un Design System
+Objectif : générer une palette de couleurs harmonieuse et l'intégrer dans votre Design System.
+
+Étapes :
+Accédez à l'outil :
+Rendez-vous sur Adobe Color Wheel.
+
+Sélectionnez une couleur principale :
+Choisissez une couleur de base qui correspond à l’identité de votre marque ou projet.
+
+Générez une palette harmonieuse :
+Utilisez les règles de couleurs disponibles (complémentaires, analogues, triadiques) pour générer une palette complète. Adobe Color génère automatiquement des couleurs associées qui fonctionnent bien ensemble.
+
+Ajustez la palette :
+Modifiez manuellement les nuances pour ajuster la luminosité et la saturation de chaque couleur selon les besoins de votre interface.
+
+Testez l'accessibilité :
+Vérifiez le contraste des couleurs en vous assurant que la lisibilité est optimale pour tous les utilisateurs (notamment ceux avec des déficiences visuelles).
+
+Exportez et utilisez dans Figma :
+Copiez les valeurs hexadécimales des couleurs pour les intégrer directement dans Figma comme styles de couleur.
+
+Résultat attendu :
+Une palette de couleurs cohérente et accessible, prête à être utilisée dans le Design System, avec des couleurs principales, secondaires et d'accent adaptées à votre projet.
+
+---------------------------------------
+
+exercice 21 : Création d'une grille simple et réactive
+Objectif : Apprendre à structurer une page web à l’aide d’une grille flexible et responsive pour organiser le contenu.
+
+Énoncé :
+Créez une page simple en utilisant une grille de 12 colonnes pour organiser les éléments de la page.
+
+Étapes :
+Diviser la page en 12 colonnes :
+
+Créez une section d'en-tête qui occupe 12 colonnes (pleine largeur).
+Ajoutez trois blocs pour présenter des services. Chaque bloc doit occuper 4 colonnes, côte à côte, sur un écran large.
+Ajouter des gouttières :
+
+Entre chaque colonne, ajoutez un espacement de 20px pour séparer les éléments visuellement.
+Adaptation aux différentes tailles d'écrans :
+
+Sur les grands écrans, les trois blocs doivent être alignés horizontalement sur 4 colonnes chacun (3 blocs dans une ligne de 12 colonnes).
+Sur les tablettes, faites en sorte que chaque bloc occupe 6 colonnes, donc deux blocs par ligne.
+Sur les petits écrans, chaque bloc occupe toute la largeur, soit 12 colonnes (une colonne par ligne).
+
+
+**********************************************
+**********************************************
+**********************************************
+*******************  TP   ***************************
+**********************************************
+**********************************************
+**********************************************
+
+TP 1 : Zoning (UX) pour un préparateur physique
+Objectif :
+     Apprendre à structurer une page d’accueil en définissant les zones principales de l'interface avant d'ajouter les détails du design (wireframe ou maquette). 
+     Le zoning est une étape préalable qui consiste à définir de manière très simple et rapide les emplacements des principales sections d'une page.
+
+
+Réalisez le zoning de la page d’accueil d’un site d'un préparateur physique. 
+Le zoning doit représenter les grandes zones fonctionnelles de la page, sans rentrer dans les détails du design ou des contenus.
+
+Étapes :
+Définir les sections :
+Header (En-tête) : 
+    Zone pour le logo, la navigation (accueil, services, blog, contact).
+
+Présentation des services : 
+    Zone avec 3 à 4 blocs pour détailler les services proposés (coaching, nutrition, programmes personnalisés).
+
+Zone contact ou prise de rendez-vous : 
+    Zone pour un formulaire ou un bouton de prise de rendez-vous.
+
+Footer (Pied de page) : 
+    Zone pour les informations légales, les liens sociaux et les coordonnées.
+
+                    Organiser les zones :
+Utilisez des formes simples (rectangles ou carrés) pour représenter chaque zone.
+Ne vous concentrez pas sur les détails, seulement sur la taille et la position des zones par rapport aux autres.
+
+Priorisation des zones :
+    Décidez quelle section doit attirer le plus d’attention 
+
+----------------------------------------------------------
+----------------------------------------------------------
+----------------------------------------------------------
+
+TP 2 : Wireframe pour un préparateur physique
+Objectif : Créer un wireframe basse fidélité d'une page d'accueil pour un préparateur physique, sans entrer dans les détails graphiques.
+
+Énoncé :
+À partir du zoning, réalisez un wireframe basse fidélité de la page d’accueil du site du préparateur physique. Ce wireframe doit présenter les sections clés (bannières, services, témoignages, contact), mais sans couleurs ni images.
+
+Étapes :
+Structuration :
+
+Créez des blocs pour chaque section (exemple : bannières, services, témoignages).
+Utilisez des placeholders (zones vides) pour les images et les textes.
+Définir les CTA (Call to Action) :
+
+Incluez un bouton « Planifiez une séance » dans la bannière principale et des boutons pour la prise de contact ou la réservation de services.
+Livrable : Un wireframe basse fidélité sans détails graphiques, mais avec des sections bien définies et structurées.
+
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+
+TP 3 : Maquette pour un préparateur physique
+Objectif : Transformer le wireframe en une maquette haute fidélité avec l’ajout de couleurs, typographies, et images.
+
+Énoncé :
+Créez une maquette haute fidélité de la page d’accueil du préparateur physique en ajoutant les styles visuels (couleurs, typographies, images) et en améliorant le wireframe précédent.
+
+Étapes :
+Palette de couleurs :
+
+Sélectionnez une palette de couleurs qui reflète l’énergie et la santé.
+Ajout des images :
+
+Remplacez les placeholders par des images du préparateur en action, des équipements, ou des clients.
+
+Hiérarchie typographique :
+Utilisez des polices modernes et lisibles pour les titres, sous-titres, et paragraphes.
+Appliquez des variations de tailles pour bien structurer l’information.
+Livrable : Une maquette haute fidélité de la page d’accueil avec les éléments graphiques appliqués.
+
+----------------------------------------------------------
+----------------------------------------------------------
+----------------------------------------------------------
+
+TP 4 : Prototype 
+Objectif : Créer un prototype interactif à partir de la maquette haute fidélité.
+
+Énoncé :
+Transformez la maquette haute fidélité en un prototype interactif. 
+Ajoutez des interactions telles que la navigation entre les pages, l’effet de survol sur les boutons, ou des transitions fluides entre les sections.
+
+Étapes :
+Interactions de base :
+
+Reliez le bouton « Planifiez une séance » à une page de réservation.
+Ajoutez des états interactifs (survol, clic) sur les boutons principaux.
+Transitions fluides :
+
+Ajoutez des transitions entre les différentes sections de la page lorsque l’utilisateur fait défiler.
+Tester le prototype :
+
+Testez le prototype en mode « Preview » pour vérifier que les interactions fonctionnent correctement.
+Livrable : Un prototype interactif fonctionnel avec des boutons, liens et transitions interactives.
+
+**************************************************************************
+Ces TP vous guident de la conception UX (zoning) jusqu’à la création d’un prototype interactif  en passant par le wireframe et la maquette haute fidélité.
+***************************************************************
+***************************************************************
+***************************************************************
+***************************************************************
+***************************************************************
+***************************************************************
+-->
+
+<!-- 
+Projet final UI/UX : Création de site responsive (3-4 pages)
+Objectif : Réaliser un site web responsive de 3 à 4 pages en utilisant une grille et en respectant un design system avec des couleurs limitées et des règles d'accessibilité. Ce projet sera noté sur 100.
+
+Projets proposés :
+Site pour un restaurant
+Site pour un magasin de vêtements en ligne.
+Vous pouvez aussi choisir votre projet 
+
+Exigences du projet :
+1. Pages responsives (40 points)
+Créez 3 à 4 pages adaptées aux différentes tailles d’écrans (desktop, tablette, mobile).
+Utilisez une grille de 12 colonnes pour organiser les éléments de chaque page.
+Adaptez la disposition des éléments pour une bonne expérience utilisateur, quelle que soit la taille de l’écran.
+2. Design System (20 points)
+Utilisez un design system avec des composants réutilisables (boutons, typographies, espaces).
+Limitez la palette à 5 couleurs maximum pour garantir la cohérence visuelle sur toutes les pages.
+3. Accessibilité (15 points)
+Respectez les règles d’accessibilité : contraste des couleurs, lisibilité, et compatibilité des éléments interactifs (liens, boutons).
+Assurez-vous que le design est accessible pour tous les types d'utilisateurs (textes alternatifs, éléments bien dimensionnés).
+4. Grille (25 points)
+Appliquez une grille de 12 colonnes pour structurer la page et adapter les éléments au responsive.
+Assurez une disposition claire et logique des éléments selon la taille de l’écran.
+Répartition de la note :
+representation des pages responsives : 40 points
+Design system : 20 points
+Accessibilité : 15 points
+Grille : 25 points
+Livrables attendus :
+Un prototype complet (avec Figma) comprenant 3 à 4 pages fonctionnelles pour chaque taille d’écran (desktop, tablette, mobile).
+Une explication des choix de design (couleurs, typographies, grille, etc.).
+
+-->
